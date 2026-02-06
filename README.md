@@ -1,16 +1,68 @@
-# React + Vite
+🛒 React E-Commerce Website (Learning Project)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📌 Project Overview
 
-Currently, two official plugins are available:
+This project was a fully functional e-commerce website built using React as part of my earlier learning phase. The main goal of this project was to strengthen my understanding of React fundamentals, component-based architecture, routing, and API integration.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The application simulated a basic online store experience, including product listing, search functionality, and page navigation.
 
-## React Compiler
+🛠️ Tech Stack Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+•	React.js
 
-## Expanding the ESLint configuration
+•	React Router DOM – for client-side routing
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+•	JavaScript (ES6+)
+
+•	CSS
+
+•	Dummy API – for fetching product data
+
+
+🗂️ Project Structure
+
+The project followed a proper and scalable folder structure, including:
+
+
+•	components/ – reusable UI components
+
+•	pages/ – individual route-based pages
+
+•	layout/ – common layout components.
+
+
+This structure helped maintain separation of concerns and improved readability.
+
+✨ Features Implemented
+
+•	Product listing page
+
+•	Dynamic routing using react-router-dom
+
+•	Product data fetched from a Dummy API
+
+•	Displayed product images and details
+
+•	Search functionality to filter products
+
+•	Reusable components for better maintainability
+
+•	Clean and modular project setup
+
+
+🚧 Incomplete / Pending Features
+
+This project was not fully completed, as it was created earlier for learning purposes. The following features were planned but not finished:
+
+•	Contact page
+
+•	User authentication (Login / Signup)
+
+•	Enhanced cart and checkout flow
+
+
+⚠️ Note
+This project represents an important stage in my learning journey with React. It highlights how I approached building a complete application at the time and serves as a reference point for my growth as a front-end developer.
+
+📬 Feedback
+Any feedback or suggestions for improvement are always welcome!
