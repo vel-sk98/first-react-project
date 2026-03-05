@@ -14,8 +14,6 @@ The primary goal of this project was to strengthen my understanding of:
 
 The application simulates a basic online store experience, including product listings, search functionality, and dynamic page navigation.
 
-> ⚠️ Note: This project was originally created around 3 years ago during my self-learning journey. I am re-uploading it as part of rebuilding my GitHub portfolio after losing access to my previous account.
-
 ---
 
 <img width="1161" height="438" alt="Fun-website1" src="https://github.com/user-attachments/assets/b16a9983-6124-4612-99bd-55731b81f09b" />
@@ -32,6 +30,25 @@ The application simulates a basic online store experience, including product lis
 - **Dummy API** – For fetching product data
 
 ---
+## Major Functions
+
+* **Component-Based UI:** Utilizes reusable functional and class components to manage different sections of the interface.
+* **State Management:** Implements React `useState` and `useEffect` hooks (or standard Class state) to handle dynamic data updates and side effects.
+* **Responsive Design:** Features a layout that adjusts to different screen sizes for a consistent user experience.
+* **Routing (if applicable):** Navigation between different views without page reloads using React Router.
+* **API Integration:** Fetches and displays data from external or local JSON sources.
+
+## Dependencies
+
+The project relies on the following major packages:
+
+* **React:** The core library for building the user interface.
+* **React-DOM:** Provides DOM-specific methods for the browser.
+* **Scripts:** Uses `react-scripts` for the build pipeline.
+* **React-Router-DOM** for navigation.
+
+Check the `package.json` file for the exact versions of all dependencies.
+
 
 ## ✨ Features Implemented
 
@@ -62,5 +79,58 @@ Feel free to explore the project and share your thoughts!
 
 ---
 
-The project follows a modular and scalable folder structure:
+## Build and Deploy Instructions
+
+### Prerequisites
+
+* [Node.js](https://nodejs.org/) (v14 or higher recommended)
+* npm or yarn
+
+### Local Development
+
+1. **Clone the repository:**
+```bash
+git clone https://github.com/vel-sk98/first-old-react-project.git
+cd first-old-react-project
+
+```
+
+
+2. **Install dependencies:**
+```bash
+npm install
+
+```
+
+
+3. **Start the development server:**
+```bash
+npm start
+
+```
+
+
+The app will be available at `http://localhost:3000`.
+
+### Building for Production
+
+To create an optimized production build, run:
+
+```bash
+npm run build
+
+```
+
+The output will be generated in the `build/` folder, which is ready to be deployed to hosting services like Netlify, Vercel, or GitHub Pages.
+
+### Deployment (GitHub Pages)
+
+If you wish to deploy to GitHub Pages:
+
+1. Add `"homepage": "https://vel-sk98.github.io/first-old-react-project"` to your `package.json`.
+2. Run:
+```bash
+npm run deploy
+
+```
 
